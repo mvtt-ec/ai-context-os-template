@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "sensitivity": {
+    "internal": {"auto_export": true},
+    "confidential": {"auto_export": false},
+    "restricted": {"auto_export": false, "never_export": true}
+  },
+  "targets": {
+    "chatgpt": {"allow": ["internal"]},
+    "claude": {"allow": ["internal"]},
+    "gemini": {"allow": ["internal"]},
+    "codex": {"allow": ["internal"]},
+    "local": {"allow": ["internal", "confidential"]}
+  }
+}

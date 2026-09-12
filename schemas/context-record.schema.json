@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Context OS Record",
+  "type": "object",
+  "required": ["id", "type", "status", "sensitivity", "share", "updated"],
+  "properties": {
+    "id": {"type": "string"},
+    "type": {"type": "string"},
+    "status": {"type": "string"},
+    "sensitivity": {"enum": ["internal", "confidential", "restricted"]},
+    "share": {"type": "array"},
+    "updated": {"type": "string"}
+  }
+}

@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+generated/*/*
+!generated/*/.gitkeep
+__pycache__/
+*.py[cod]
+.DS_Store
+*.zip

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "targets": {
+    "chatgpt": {"enabled": false},
+    "claude": {"enabled": false},
+    "gemini": {"enabled": false},
+    "codex": {"enabled": false},
+    "obsidian": {"enabled": false}
+  }
+}
